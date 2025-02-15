@@ -1,0 +1,2 @@
+# permutation calculator. similar to combinations except the order of the elements is significant. 
+# P(n,r) = n!/r!(n-r!)    formula for permutations
