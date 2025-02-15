@@ -1,3 +1,5 @@
+(readme Needs update)
+
 Both a permutation and combination calculator using a set of n elements, separated out into a subset of r number of elements. 
 
 Order-matters = permutations
