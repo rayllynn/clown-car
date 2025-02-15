@@ -16,7 +16,7 @@ def combocalc(n,r):
     for i in range(nsubr-1,0,-1):  #n-r factorial calculation
         nsubr*=i
     print("Final nsubr =",nsubr)
-    print(nfac/(rfac*nsubr))      #n!/((n-r)!r!)
+    print(nfac/(rfac*nsubr))      #n!/((n-r)!r!) printed to verify correct result prior to returning value
     return nfac/(rfac*nsubr)
 
 combocalc(12,7)
