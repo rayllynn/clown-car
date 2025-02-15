@@ -37,7 +37,7 @@ try:
     b = int(input())
     print("You have entered",b,"elements of type B.")
 
-    print("Assuming only 2 types of elements, this gives a total of",a+b,"elements.")
+    print("\nAssuming only 2 types of elements, this gives a total of",a+b,"elements.")
     totalelements = a+b
 
     print("\nEnter the total number of elements you wish to choose without replacement:")
