@@ -1,3 +1,4 @@
+```python
 # combination calculator. C(n,r) = n!/((n-r)!r!) 
 # loop debugging print statements have been commmented out but left in the code for future reference
 def combocalc(n,r):
@@ -20,3 +21,6 @@ def combocalc(n,r):
     return nfac/(rfac*nsubr)
 
 combocalc(12,7)
+
+
+```
