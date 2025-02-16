@@ -18,8 +18,7 @@ def combocalc(n,r):
 #    print(nfac/(rfac*nsubr))      #n!/((n-r)!r!)
     return nfac/(rfac*nsubr)
 
-#Calculate hypergeometric distribution using values of variables provided above
-
+#Calculate hypergeometric distribution using values of variables provided below
 def hypergeomcalc(a,b,k,n):
     print("The probability of selecting",k,"objects of type A is ")
     result = round((combocalc(a,k)*combocalc(b,n-k))/combocalc(a+b,n),4)
