@@ -1,4 +1,4 @@
-~~~py
+```python
 #combocalculator again but with modified output to calculate the hypergeometric distribution
 
 # combination calculator. C(n,r) = n!/((n-r)!r!)
@@ -53,4 +53,3 @@ except TypeError:    #TypeError handling for if a user enters a non-numeric valu
     print("Values must be integers.")
 except Exception:              #Misc error handling
     print("An error has occurred.")
-~~~
