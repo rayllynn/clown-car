@@ -1,4 +1,4 @@
-``` python
+```python
 #combocalculator again but with modified output to calculate the hypergeometric distribution
 
 # combination calculator. C(n,r) = n!/((n-r)!r!)
