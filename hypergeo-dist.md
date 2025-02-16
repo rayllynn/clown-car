@@ -7,10 +7,7 @@ def combocalc(n,r):
     rfac = r
     nsubr = n-r
     for i in range(n-1,0,-1):       #n factorial calculation
-#        print("start loop nfac is now",nfac)
         nfac*=i
-#        print("I is currently",i)
-#        print("end loop nfac is now",nfac)
 #    print("Final nfac =",nfac)
     for i in range(r-1,0,-1):      #r factorial calculation
         rfac*=i
